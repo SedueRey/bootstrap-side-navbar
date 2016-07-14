@@ -92,6 +92,8 @@
         > li > a,
         .dropdown-header {
           padding: 5px 15px 5px 25px;
+          font-size: 12px;
+          letter-spacing: 1px;
         }
 
         > li {
@@ -129,6 +131,7 @@
       text-transform: uppercase;
       border-bottom: none;
       padding-bottom: 0;
+      letter-spacing: 1px;
     }
 
     &.navbar-inverse {
@@ -146,6 +149,7 @@
       .navbar-nav {
         .dropdown-menu > li > a {
           color: $navbar-inverse-link-color;
+          font-size: 12px;
         }
 
         .dropdown-menu > .active > a {
